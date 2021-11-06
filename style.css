@@ -5,7 +5,6 @@ body {
     flex-direction: column;
 }
 
-
 a {
     text-decoration: none;
     color: #F9FAF8
@@ -57,7 +56,8 @@ ul {
     width: 400px;
 }
 
-.SU1 {
+.SU1,
+.SU2 {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 18px;
@@ -68,7 +68,36 @@ ul {
 }
 
 .two {
+    color: #1F2937;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.title-two {
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 36px; 
+}
+
+.two-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 36px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+}
+
+.info img {
+    border-radius: 25%;
+    padding-bottom: 12px;
 }
 
 .three {
@@ -85,6 +114,7 @@ ul {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    max-width: 600px;
 }
 
 .quotee {
@@ -94,9 +124,27 @@ ul {
 }
 
 .four {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 75px;
+    padding: 50px;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+}
+
+.four-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-four {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.SU2 {
+    border: 2px solid #F9FAF8;
 }
 
 .footer {
